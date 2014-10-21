@@ -37,14 +37,20 @@ cucumber_webdriverIO
  Each feature file consists of scenarios/scenario outlines to describe requirements in an elaborate form.
  E.g. : 
  
+ 
  Sample feature file: cukesample.feature
+ 
+ 
  Sample Scenario: 
  
  Feature: Verify user actions on webpage 
  
  Scenario: Webpage to be used is google.com
+ 
  Given User navigates to "google.com"
+ 
  When User is on the homepage verify the title "Google"
+ 
  Then User enters some text in the textfied "q"
 
 These sceanrios and scenario outlines are extended into step_defintions and support --> pages.js
